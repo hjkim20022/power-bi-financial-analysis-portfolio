@@ -1,7 +1,7 @@
 # Financial Report — Professional Portfolio Redesign Blueprint
 
-**Based on:** user-provided `Financial report.pbix` inspected October 2026.
-**Scope:** visual organization, labels, units, audit points, theme and quality checks. The underlying dataset and DAX were **not changed**. Exact rendered appearance and calculated values cannot be verified here without Power BI Desktop.
+**Source:** My original `Financial report.pbix` (reviewed October 2026).
+**Scope:** visual organization, labels, units, audit points, theme and quality checks. The underlying dataset and DAX were **not changed**. I will confirm the finished appearance and calculated values in Power BI Desktop.
 
 ## Apply the companion theme
 
@@ -45,7 +45,7 @@ Keep the consolidated cash-flow matrix and group operating, investing, and finan
 
 Replace the three oversized multi-row cards with **three clearly titled sections**: Liquidity (Cash, Current, Quick ratios); Profitability (Gross, Operating, Net, Pretax margins, Return on Total Capital); Solvency (Debt-to-Assets, Debt-to-Capital, Debt-to-Equity). Each section should show 2–5 aligned KPI tiles with units and a short interpretation. Add small trend charts by year only if the measure responds correctly to date filters. Keep a dedicated Ratio Detail table for users who need all metrics.
 
-**Existing measures detected**: Cash Ratio, Current Ratio, Quick Ratio; Gross Profit Margin Ratio, Net Profit Margin Ratio, Operating Margin Ratio, Pretax Margin Ratio, Return on total Capital Ratio; Debt-to-Assets Ratio, Debt-to-Capital Ratio, Debt-to-Equity Ratio.
+**Existing measures in the report:** Cash Ratio, Current Ratio, Quick Ratio; Gross Profit Margin Ratio, Net Profit Margin Ratio, Operating Margin Ratio, Pretax Margin Ratio, Return on total Capital Ratio; Debt-to-Assets Ratio, Debt-to-Capital Ratio, Debt-to-Equity Ratio.
 
 ### Ratios → Ratio Detail
 
@@ -94,4 +94,4 @@ Use the existing Year, Product, and Country slicers in one filter band. Show Sal
 5. Simplify financials and test how slicers work across each set of measures.
 6. Proofread source notes, date coverage, formatting and accessible export.
 
-**Note:** The companion theme is a valid JSON file, not a finished PBIX edit. Apply it in Power BI Desktop and save the report there.
+**Project status:** These are my report design and validation specifications. The actual Power BI Desktop edits remain in progress.
