@@ -1,6 +1,6 @@
-# Finish polishing the real Financial Report.pbix in Power BI Desktop
+# Power BI Financial Report — Final Quality Checklist
 
-**Important:** The included website is a professional **design prototype**, not a modification of your PBIX. Your original report remains unchanged.
+**Project status:** My website presents the proposed report design. The source PBIX remains separate, and the redesign is not yet fully implemented in Power BI Desktop.
 
 ## 1. Preserve the report
 
@@ -34,9 +34,9 @@
 - [ ] Ratios — right-aligned numeric table and each ratio's correct formatting.
 - [ ] Financials — one filter band (Year, Product, Country), readable trend / category analysis; note table-source differences.
 
-## 5. Finish the GitHub portfolio
+## 5. Publish verified report evidence
 
 - [ ] Export a screenshot of each updated Power BI page after verifying its values.
 - [ ] Add screenshots to `assets/` and update the website/README to reflect *completed* report changes, not proposals.
-- [ ] Keep your original PBIX private unless data-sharing permissions are confirmed.
+- [ ] Keep the original PBIX private unless data-sharing permissions are confirmed.
 - [ ] Test the Pages URL in an Incognito browser without Microsoft sign-in.
