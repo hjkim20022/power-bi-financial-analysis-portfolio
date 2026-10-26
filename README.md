@@ -1,69 +1,73 @@
-# Financial Intelligence — Power BI Financial Analysis
+# Power BI Financial Analysis Portfolio
 
-**HeeJung Kim** · Business Intelligence / Financial Reporting Portfolio  
-**Power BI | DAX | Data Modeling | KPI Reporting | Financial Statement Analysis**
+**HeeJung Kim**  
+**Financial Reporting · Business Intelligence · Power BI · DAX · Data Visualization**
 
-[![Project status: portfolio prototype](https://img.shields.io/badge/Website-Design%20Prototype-0a7b83)](./index.html)
-[![Report status: refinement](https://img.shields.io/badge/Power%20BI-Refinement%20in%20Progress-64748b)](./IMPLEMENTATION_CHECKLIST.md)
+This is my financial analysis portfolio project, organized around an eight-page Power BI report. The report brings together financial statements, profitability measures, working capital, and key financial ratios. My focus is on making financial performance easier to interpret through clear KPIs, consistent calculations, and useful visuals.
 
-> **Recruiter note:** This is an **independent portfolio project** by HeeJung Kim, not an employer engagement. Its public website is an eight-page **interactive design prototype**, not a live Power BI report. The original Power BI report exists, but public Power BI sharing became unavailable. Financial visuals being redesigned in Power BI Desktop are **not yet claimed as finished**.
+The repository includes an **interactive website walkthrough** of the report structure and proposed visual improvements. The walkthrough is a **design prototype**; it is not the live Power BI Service report, and the redesigned pages have not yet all been implemented in the PBIX.
 
-### Explore the project
+## Explore my project
 
-- **[Open website files](./index.html)** — executive overview and eight selectable report-page prototypes
-- **[Redesign and validation checklist](./IMPLEMENTATION_CHECKLIST.md)** — technical improvements and pending checks
-- **[Power BI redesign blueprint](./POWERBI_REDESIGN_GUIDE.md)** — proposed layouts, DAX and financial-ratio checks
-- **[Theme JSON](./powerbi-theme.json)** — navy/teal styling for Power BI Desktop
+| Resource | What it contains |
+|---|---|
+| [Portfolio website source](./index.html) | Interactive, eight-page financial-reporting walkthrough |
+| [Report redesign plan](./POWERBI_REDESIGN_GUIDE.md) | Layout, DAX review, financial-ratio and reporting recommendations |
+| [Implementation checklist](./IMPLEMENTATION_CHECKLIST.md) | Outstanding work to complete and validate in Power BI Desktop |
+| [Power BI theme](./powerbi-theme.json) | Consistent navy-and-teal visual theme |
+| [Report layout reference](./assets/original-report-schematic.svg) | A labeled schematic of the original dashboard, not a screenshot |
 
-**Intended GitHub Pages address (once enabled and verified):**  
-`https://hjkim20022.github.io/power-bi-financial-analysis-portfolio/`
+**GitHub Pages website:** `https://hjkim20022.github.io/power-bi-financial-analysis-portfolio/`  
+*Use the website link once GitHub Pages deployment has been verified. The repository itself is public and accessible without a Power BI account.*
 
-## Business purpose
+## Report overview
 
-Present financial information in a readable, decision-focused report. The Power BI project examines revenue, cost of goods sold, gross profit, net profit, working capital, financial statements and ratios. The portfolio demonstrates financial reporting and data visualization skills while documenting improvements needed to make the report recruiter-ready.
+| Page | Financial question explored |
+|---|---|
+| Dashboard | How are revenue, cost of sales, gross profit, and net profit performing? |
+| IS — Income Statement | How do revenues and expenses contribute to earnings? |
+| BS — Balance Sheet | What are the assets, liabilities, and equity balances? |
+| CF — Cash Flow | How do operating, investing, and financing activities affect cash? |
+| WC — Working Capital | What does the short-term liquidity position look like? |
+| Ratios | What do the financial ratios indicate? |
+| Ratios 1 | How can liquidity, profitability, and solvency be compared? |
+| Financials | What trends and categories influence financial performance? |
 
-## Report pages
+## Example KPI snapshot
 
-| Source page | Purpose | Planned presentation |
-|---|---|---|
-| dashboard | Executive overview | Four primary KPIs, uncluttered comparisons and trends |
-| IS | Income statement | Revenue, costs, profit subtotals and comparisons |
-| BS | Balance sheet | Assets, liabilities and equity |
-| CF | Cash flow | Operating, investing and financing flows |
-| WC | Working capital | Liquidity and working capital |
-| Ratios | Financial ratios | Defined calculations and appropriate units |
-| Ratios 1 | Financial health | Liquidity, profitability and solvency sections |
-| financials | Detailed financial performance | Revenue/profit drivers, selected trends and filters |
+The following numbers are displayed on the **original Power BI dashboard**. They are shown here as report examples, not independently audited results. The reporting period and currency should be confirmed in the source model before interpreting them.
 
-## Source-report evidence
-
-These **rounded display values** were visible on an original Power BI Service dashboard screenshot. The screenshot alone does not independently verify their underlying data or currency:
-
-| KPI | Display |
+| KPI | Displayed value |
 |---|---:|
 | Revenue | 18.90K |
-| Cost of goods sold | 7.84K |
+| Cost of goods sold (COGS) | 7.84K |
 | Gross profit | 11.06K |
 | Net profit | 2.55K |
 
-A schematic is included at [assets/original-report-schematic.svg](./assets/original-report-schematic.svg). **It is a schematic based on the screenshot, not the original image or a fresh export.**
+The source dashboard also includes profitability gauges and revenue charts. The redesigned concept presents the four main KPIs first and makes the detailed analysis easier to navigate.
 
-## Technical approach
+## Tools and analytical skills
 
-- **Power BI, DAX, Power Query:** source financial reporting model and calculation visuals
-- **KPI design:** revenue, cost, profit, margin and financial-ratio presentations
-- **Quality checks:** investigate the operating-margin measure previously displayed in scientific notation; verify calculation contexts before showing corrected values
-- **Design:** responsive web prototype and a consistent Power BI theme
+- **Power BI:** report design, financial dashboards, and analytical visuals
+- **DAX:** calculations for financial KPIs and ratio analysis
+- **Financial analysis:** income statement, balance sheet, cash flow, working capital, profitability, and solvency
+- **Data validation:** checking calculations, date filters, numerical formats, and reconciliation logic
+- **Portfolio presentation:** documenting business questions, report structure, and design decisions
 
-## What's finished versus still in progress
+## Report quality and next improvements
 
-**Finished in GitHub:** source report inventory; eight-page design prototype; project documentation; theme; redesign and validation plan.
+The original Power BI report contains eight pages. I am refining its visual presentation and reviewing financial measures before publishing a final set of dashboard screenshots.
 
-**Still in progress in Power BI Desktop:** applying styles to the real PBIX, revising Dashboard and Ratios 1, checking DAX and ratios, improving other pages, taking verified updated screenshots and republishing evidence.
+The priorities are to simplify the Dashboard, organize Ratios 1 into liquidity/profitability/solvency sections, correct confusing number formatting, check calculation context, and make every page consistent.
 
-**Privacy:** This repository intentionally excludes the original PBIX and underlying datasets until their public-sharing permissions and sensitivity have been reviewed.
+One value in the original dashboard was displayed in scientific notation (`1.25E-5`) for Operating Margin Ratio. I will validate its DAX formula and formatting before drawing conclusions from it. Net Profit Margin displayed `0.24`; whether that should appear as a percentage also requires confirmation of the measure definition.
 
----
+The **PBIX file and embedded data model are not included** in this public repository. This project is presented as independent portfolio work, not as an employer engagement or a claim of audited business results.
 
-**Owner / project author:** [HeeJung Kim](https://github.com/hjkim20022) · [LinkedIn](https://www.linkedin.com/in/hee-jung-kim-1428781bb/)  
-**Related work:** [AR Collection Portfolio](https://github.com/hjkim20022/HeeJung_Kim_AR_Collection_Portfolio) · [Enterprise Retail Analytics Platform](https://github.com/hjkim20022/enterprise-retail-analytics-platform)
+## More of my work
+
+- [Accounts Receivable Collection Portfolio](https://github.com/hjkim20022/HeeJung_Kim_AR_Collection_Portfolio)
+- [Enterprise Retail Analytics Platform](https://github.com/hjkim20022/enterprise-retail-analytics-platform)
+- [Databricks CI/CD Pipeline](https://github.com/hjkim20022/databricks-cicd-project)
+
+**Contact:** [LinkedIn](https://www.linkedin.com/in/hee-jung-kim-1428781bb/) · [GitHub profile](https://github.com/hjkim20022)
