@@ -20,6 +20,28 @@ The repository includes an **interactive website walkthrough** of the report str
 **GitHub Pages website:** `https://hjkim20022.github.io/power-bi-financial-analysis-portfolio/`  
 *Use the website link once GitHub Pages deployment has been verified. The repository itself is public and accessible without a Power BI account.*
 
+## Visual gallery — complete eight-page redesign plan
+
+The illustrations below are original **design mockups**, not screenshots of a finished Power BI redesign. They are stored in this repository so they display without relying on external image services.
+
+| Dashboard — Executive Overview | IS — Income Statement |
+|:---:|:---:|
+| [![Dashboard — Executive Overview layout concept](assets/01_dashboard.svg)](assets/01_dashboard.svg) | [![IS — Income Statement layout concept](assets/02_income_statement.svg)](assets/02_income_statement.svg) |
+
+| BS — Balance Sheet | CF — Cash Flow |
+|:---:|:---:|
+| [![BS — Balance Sheet layout concept](assets/03_balance_sheet.svg)](assets/03_balance_sheet.svg) | [![CF — Cash Flow layout concept](assets/04_cash_flow.svg)](assets/04_cash_flow.svg) |
+
+| WC — Working Capital | Ratios — Financial Ratios |
+|:---:|:---:|
+| [![WC — Working Capital layout concept](assets/05_working_capital.svg)](assets/05_working_capital.svg) | [![Ratios — Financial Ratios layout concept](assets/06_ratios.svg)](assets/06_ratios.svg) |
+
+| Financials — Detailed Financials | Ratios 1 — Financial Health |
+|:---:|:---:|
+| [![Financials — Detailed Financials layout concept](assets/07_financials.svg)](assets/07_financials.svg) | [![Ratios 1 — Financial Health layout concept](assets/08_ratios_trends.svg)](assets/08_ratios_trends.svg) |
+
+Only four Dashboard KPI display values came from the original screenshot. Other proposed metrics and trend visuals must be checked against Power BI before presenting final results.
+
 ## Report overview
 
 | Page | Financial question explored |
