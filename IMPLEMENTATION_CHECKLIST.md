@@ -1,6 +1,6 @@
-# Power BI Financial Report — Final Quality Checklist
+# Power BI Financial Report — Quality Checklist
 
-**Project status:** My website presents the proposed report design. The source PBIX remains separate, and the redesign is not yet fully implemented in Power BI Desktop.
+**Project status:** My public gallery presents proposed report layouts. The source PBIX is maintained separately, and these layouts are not yet fully implemented in Power BI Desktop.
 
 ## 1. Preserve the report
 
