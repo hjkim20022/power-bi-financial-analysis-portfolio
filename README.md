@@ -51,6 +51,23 @@ Completed pages from the analytical PDF. Select an image for full size.
 
 [![Calculation review](assets/report-7.png)](assets/report-7.png)
 
+
+## Original Power BI dashboards
+
+These screenshots are taken directly from my original Power BI PDF. They document the original report design and retain its original calculations. The financial and ratio dashboards contain known calculation and period-aggregation issues; use the analytical report above for recalculated 2017 figures. Forecasts shown here have not been validated.
+
+### Financial dashboard
+
+[![Financial dashboard — original Power BI export](assets/original-financial-dashboard.png)](assets/original-financial-dashboard.png)
+
+### Sales dashboard
+
+[![Sales dashboard — original Power BI export](assets/original-sales-dashboard.png)](assets/original-sales-dashboard.png)
+
+### Financial ratios dashboard
+
+[![Financial ratios dashboard — original Power BI export](assets/original-ratio-dashboard.png)](assets/original-ratio-dashboard.png)
+
 ## Review notes
 
 Calculations use source-displayed values and rounded balance-sheet inputs. The unexplained 2017 gross-profit-to-EBIT bridge of 472.58 is retained as an open source-data question. Forecasts are excluded because their assumptions are not documented. The last PDF page records corrections and limitations.
