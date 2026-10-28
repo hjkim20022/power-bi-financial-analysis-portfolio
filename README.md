@@ -2,15 +2,15 @@
 
 **HeeJung Kim | Power BI · Financial Reporting · KPI Analysis**
 
-An independent financial analytics portfolio covering profitability, liquidity, cash flow and working capital.
+My Power BI financial analysis project explores profitability, liquidity, cash flow and working capital.
 
 **[Download the analytical report](reports/HeeJung_Kim_Financial_Portfolio.pdf)** · [Original Power BI export](reports/Original_PowerBI_Export.pdf)
 
 ## Reporting scope
 
-The seven-page analytical report uses figures from my original eight-page Power BI export. Financial statement analysis is aligned to December 2017; the 2013–2014 sales sample is presented separately. The new PDF recalculates ratios and replaces sums across balance-sheet years with closing balances. It is a static analytical presentation, not a corrected PBIX export. Power BI model updates remain outstanding.
+The financial analysis covers December 2017. A separate sales sample covers 2013–2014. The PDF includes recalculated ratios and year-end balance-sheet figures; these changes have not yet been applied to the PBIX.
 
-Source statements are labelled Colgate-Palmolive. Currency, scale and actual/forecast classification are unspecified in the supplied model; these are not independently verified company filings.
+The model contains Colgate-Palmolive-labelled statements. Currency, scale and actual versus forecast classification need confirmation. The figures have not been checked against company filings.
 
 ## Key findings
 
@@ -54,7 +54,7 @@ Completed pages from the analytical PDF. Select an image for full size.
 
 ## Original Power BI dashboards
 
-These screenshots are taken directly from my original Power BI PDF. They document the original report design and retain its original calculations. The financial and ratio dashboards contain known calculation and period-aggregation issues; use the analytical report above for recalculated 2017 figures. Forecasts shown here have not been validated.
+Screenshots from my Power BI report show the dashboard layouts and visuals. They retain the original calculations, including the margin and balance-sheet aggregation issues documented in the PDF. Refer to the analytical report for recalculated 2017 figures. Forecasts remain unvalidated.
 
 ### Financial dashboard
 
