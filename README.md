@@ -52,13 +52,13 @@ Completed pages from the analytical PDF. Select an image for full size.
 [![Calculation review](assets/calculation-review.png)](assets/calculation-review.png)
 
 
-## Original Power BI dashboards
+## Dashboard gallery
 
-Screenshots from my Power BI report show the dashboard layouts and visuals. They retain the original calculations, including the margin and balance-sheet aggregation issues documented in the PDF. Refer to the analytical report for recalculated 2017 figures. Forecasts remain unvalidated.
+The financial and ratio dashboards are static portfolio visuals rebuilt with recalculated December 2017 figures. They are not screenshots of an updated PBIX. The sales dashboard remains a screenshot of the separate 2013–2014 Power BI sample; its forecast has not been validated. See the analytical PDF for calculation details and source limitations.
 
 ### Financial dashboard
 
-[![Financial dashboard — original Power BI export](assets/original-financial-dashboard.png)](assets/original-financial-dashboard.png)
+[![Financial dashboard — recalculated 2017 figures](assets/financial-dashboard.svg)](assets/financial-dashboard.svg)
 
 ### Sales dashboard
 
@@ -66,7 +66,7 @@ Screenshots from my Power BI report show the dashboard layouts and visuals. They
 
 ### Financial ratios dashboard
 
-[![Financial ratios dashboard — original Power BI export](assets/original-ratio-dashboard.png)](assets/original-ratio-dashboard.png)
+[![Financial ratios dashboard — recalculated 2017 figures](assets/financial-ratios-dashboard.svg)](assets/financial-ratios-dashboard.svg)
 
 ## Review notes
 
