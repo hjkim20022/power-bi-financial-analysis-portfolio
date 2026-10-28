@@ -25,31 +25,31 @@ Completed pages from the analytical PDF. Select an image for full size.
 
 ### 1. Executive overview
 
-[![Executive overview](assets/report-1.png)](assets/report-1.png)
+[![Executive overview](assets/executive-overview.png)](assets/executive-overview.png)
 
 ### 2. Income statement
 
-[![Income statement](assets/report-2.png)](assets/report-2.png)
+[![Income statement](assets/income-statement.png)](assets/income-statement.png)
 
 ### 3. Balance sheet and liquidity
 
-[![Balance sheet and liquidity](assets/report-3.png)](assets/report-3.png)
+[![Balance sheet and liquidity](assets/balance-sheet-liquidity.png)](assets/balance-sheet-liquidity.png)
 
 ### 4. Cash flow and funding
 
-[![Cash flow and funding](assets/report-4.png)](assets/report-4.png)
+[![Cash flow and funding](assets/cash-flow-analysis.png)](assets/cash-flow-analysis.png)
 
 ### 5. Working capital and ratios
 
-[![Working capital and ratios](assets/report-5.png)](assets/report-5.png)
+[![Working capital and ratios](assets/working-capital-ratios.png)](assets/working-capital-ratios.png)
 
 ### 6. Separate sales sample
 
-[![Separate sales sample](assets/report-6.png)](assets/report-6.png)
+[![Separate sales sample](assets/sales-performance.png)](assets/sales-performance.png)
 
 ### 7. Calculation review
 
-[![Calculation review](assets/report-7.png)](assets/report-7.png)
+[![Calculation review](assets/calculation-review.png)](assets/calculation-review.png)
 
 
 ## Original Power BI dashboards
