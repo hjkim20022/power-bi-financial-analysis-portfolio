@@ -9,12 +9,10 @@ const projects = [
     question: 'What do profitability, liquidity, and cash flow tell us about financial performance and near-term funding needs?',
     skills: ['Power BI', 'DAX', 'Financial analysis', 'KPI reporting', 'Calculation review'],
     artifact: 'Dashboard previews, PDF & PBIX',
-    proof: ['Eight report pages', 'Includes financial statements, a performance dashboard, and ratio analysis.'],
     evidence: 'The Power BI Desktop export shows the report’s original figures. See the companion analysis for recalculated December 2017 ratios and balance-sheet corrections. Currency, scale, and source classifications remain unconfirmed. The forecast in the 2013–2014 sales sample still needs validation.',
     caption: 'Static analytical visuals · December 2017 · Separate sales sample: 2013–2014',
     repo: github + 'power-bi-financial-analysis-portfolio',
     pdf: 'reports/HeeJung_Kim_Financial_Portfolio.pdf',
-    pdfLocal: 'reports/HeeJung_Kim_Financial_Portfolio.pdf',
     report: {
       pdf: 'reports/Original_PowerBI_Export.pdf',
       pbix: 'reports/HeeJung_Kim_Financial_Report.pbix'
@@ -70,25 +68,18 @@ function groupButtons(project, viewer = false) {
   </div>`;
 }
 
-function artifactLinks(project, viewer = false) {
-  const links = [];
-  if (project.report) {
-    links.push(external(project.report.pdf, 'Power BI report PDF'));
-    links.push(download(project.report.pbix, 'Download Power BI file (.pbix)'));
-  }
-  if (project.pdf) {
-    links.push(external(viewer ? project.pdfLocal : project.pdf, project.report ? 'Analytical review PDF' : 'Portfolio PDF'));
-  }
-  if (project.workbook) links.push(download(project.workbook, 'Download Excel workbook'));
-  if (project.source) links.push(external(project.source.url, project.source.label));
-  links.push(external(project.evidenceUrl, project.evidenceLabel));
-  return links.join('');
+function artifactLinks(project) {
+  return [
+    external(project.report.pdf, 'Power BI report PDF'),
+    download(project.report.pbix, 'Download Power BI file (.pbix)'),
+    external(project.pdf, 'Analytical review PDF'),
+    external(project.evidenceUrl, project.evidenceLabel)
+  ].join('');
 }
 
 const cardPages = new Map(projects.map(project => [project.id, 0]));
 const list = document.querySelector('#project-list');
 list.innerHTML = projects.map(project => {
-  const [headline, support] = project.proof;
   const firstPage = project.pages[0];
   return `<article class="project-card" id="project-${project.id}" aria-labelledby="title-${project.id}">
     <div class="card-top"><span class="project-label">${escapeHTML(project.categoryLabel)}</span><span class="artifact-label">${escapeHTML(project.artifact)}</span></div>
@@ -108,10 +99,8 @@ list.innerHTML = projects.map(project => {
         <h1 id="title-${project.id}">${escapeHTML(project.title)}</h1>
         <p class="project-summary">${escapeHTML(project.summary)}</p>
         <div class="tags">${tags(project)}</div>
-        <div class="proof"><strong>${escapeHTML(headline)}</strong><span>${escapeHTML(support)}</span></div>
         <div class="card-links">
           <button type="button" class="button primary" data-open="${project.id}">View project</button>
-          ${external(project.repo, 'View on GitHub', 'button secondary')}
         </div>
         <div class="artifact-links">${artifactLinks(project)}</div>
       </div>
@@ -194,7 +183,7 @@ function showProject(id, pageIndex) {
   document.querySelector('#dialog-details').innerHTML = currentProject.details.map(detail => `<li>${escapeHTML(detail)}</li>`).join('');
   document.querySelector('#dialog-evidence').textContent = currentProject.evidence;
   document.querySelector('#dialog-links').innerHTML = external(currentProject.repo, 'Project repository', 'button primary')
-    + `<div class="artifact-links">${artifactLinks(currentProject, true)}</div>`;
+    + `<div class="artifact-links">${artifactLinks(currentProject)}</div>`;
   document.querySelector('#viewer-groups').innerHTML = groupButtons(currentProject, true);
   document.querySelectorAll('[data-viewer-group]').forEach(button => button.addEventListener('click', () => {
     currentPage = currentProject.pages.findIndex(page => pageGroup(page) === button.dataset.viewerGroup);

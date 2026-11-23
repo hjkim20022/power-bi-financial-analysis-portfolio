@@ -43,9 +43,6 @@ h1, h2, h3, p, figure { margin: 0; }
 .button { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: .58rem 1rem; border: 1px solid transparent; border-radius: 8px; text-decoration: none; font-size: .875rem; font-weight: 700; line-height: 1.35; transition: background .18s ease, border-color .18s ease; }
 .primary { background: var(--green); border-color: var(--green); color: var(--white); }
 .primary:hover { background: var(--green-dark); border-color: var(--green-dark); }
-.secondary { background: var(--white); border-color: #c6d6ca; color: var(--green-dark); }
-.secondary:hover { background: #eef5eb; border-color: #a6bfae; }
-.text-link { color: var(--green); font-size: .9375rem; font-weight: 720; text-underline-offset: .22em; }
 
 .project-card { min-width: 0; border: 1px solid var(--line); border-radius: 14px; overflow: hidden; background: var(--white); box-shadow: 0 4px 12px #18392c08; }
 .card-top { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: .2rem .9rem; padding: .65rem 1.25rem; border-bottom: 1px solid var(--line); background: #fafcf9; }
@@ -73,8 +70,7 @@ h1, h2, h3, p, figure { margin: 0; }
 .project-summary { margin-top: .75rem; color: var(--muted); }
 .tags { display: flex; align-items: center; flex-wrap: wrap; gap: .35rem; margin-top: .95rem; }
 .tag { display: inline-flex; padding: .19rem .53rem; border: 1px solid #e2eadf; border-radius: 5px; background: #f0f5ee; color: #2b513a; font-size: .8125rem; font-weight: 620; }
-.proof { display: grid; width: 100%; gap: .1rem; margin-block: 1.15rem; padding: .55rem .75rem; border-left: 3px solid #94b58b; background: #f3f7f0; color: #284d36; font-size: .875rem; }
-.proof span { color: var(--muted); }
+.card-links { margin-top: .95rem; }
 .artifact-links { display: flex; flex-wrap: wrap; gap: .15rem .9rem; margin-top: .65rem; }
 .artifact-links a, .viewer-caption a { min-height: 34px; display: inline-flex; align-items: center; color: var(--green); font-size: .875rem; font-weight: 650; text-underline-offset: .19em; }
 .artifact-links a:hover, .viewer-caption a:hover { color: #397944; }
